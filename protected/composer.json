@@ -1,0 +1,24 @@
+{
+    "name": "codeinside/php-amqp-demo",
+    "description": "PHP-AMQP Demo app",
+    "authors": [
+        {
+            "name": "Vladislav Egorov",
+            "email": "vladislav.egorov@corp.codeinside.ru"
+        }
+    ],
+    "require": {
+        "php-amqplib/php-amqplib": "^2.9",
+        "symfony/serializer": "^4.2",
+        "symfony/config": "^4.2",
+        "symfony/yaml": "^4.2",
+        "symfony/property-access": "^4.2"
+    },
+    "autoload":{
+        "psr-0":{
+            "Model": "application/",
+            "Service": "application/",
+            "Tools": "application/"
+        }
+    }
+}

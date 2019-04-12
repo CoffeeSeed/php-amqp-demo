@@ -1,0 +1,5 @@
+host: docker-rabbitmq-02.codeinside.ru
+port: 5671
+login: guest
+password: guest
+vhost: /
